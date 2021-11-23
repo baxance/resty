@@ -1,0 +1,40 @@
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  div.textSubmissionDiv {
+    margin: 24px;
+    display: flex;
+    flex-direction: row;
+  }
+  // div.crudButtons {
+  //   margin: 24px;
+  //   display: flex;
+  //   flex-direction: row;
+  //   button {
+  //     padding: 12px; // how tf do i space these damn things out holy shit
+  //   }
+  // }
+  .getButton:focus {
+    background-color: rgb(126, 17, 17);
+    color: white;
+    font-weight: 600;
+  }
+  .putButton:focus {
+    background-color: rgb(126, 17, 17);
+    color: white;
+    font-weight: 600;
+  }
+  .postButton:focus {
+    background-color: rgb(126, 17, 17);
+    color: white;
+    font-weight: 600;
+  }
+  .deleteButton:focus {
+    background-color: rgb(126, 17, 17);
+    color: white;
+    font-weight: 200;
+  }
+}

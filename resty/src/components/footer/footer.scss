@@ -1,0 +1,13 @@
+$footerBackgroundColor: rgb(167, 167, 167);
+$footerTextColor: rgb(0, 0, 0);
+
+
+footer {
+  h3 {
+    background: $footerBackgroundColor;
+    color: $footerTextColor;
+    text-align: center;
+    border-color: black;
+    border-top: 10px;
+  }
+}
